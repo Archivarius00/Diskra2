@@ -1,6 +1,6 @@
 #Исполнительный файл
 
 from kraskal import not_kraskal
-from prim import not_prim
+from prim import algoritm_prima
 from graph import not_graph
 

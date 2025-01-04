@@ -4,7 +4,6 @@
 
 
 
-
 # Функция для создания текстового представления графа
 def not_graph(mass):
     vertices = set()
@@ -18,16 +17,8 @@ def not_graph(mass):
         edges.append((u, v, weight))
 
 
-    print("Вершины графа:")
-    for vertex in sorted(vertices):
-        print(vertex)
-
-
     print("\nРёбра графа:")
     for u, v, weight in edges:
         print(f"{u} -- {v} (дистанция: {weight})")
-
-
-
 
 
