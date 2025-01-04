@@ -1,8 +1,8 @@
 #Исполнительный файл
 
-from kraskal import not_kraskal
+from kraskal import algoritm_kraskala
 from prim import algoritm_prima
-from graph import not_graph
+# from graph import not_graph
 
 
 
@@ -52,3 +52,4 @@ mass = [
 ]
 
 algoritm_prima(mass)
+# algoritm_kraskala(mass)

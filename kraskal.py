@@ -1,10 +1,10 @@
 from graph import not_graph
 
 
-def not_kraskal(edges):
+def algoritm_kraskala(edges):
     
     if not edges:
-        return "Граф пуст, минимальное остовное дерево невозможно построить"
+        return print("Граф пуст, минимальное остовное дерево невозможно построить")
     
     edges.sort(key=lambda x: x[2])  # Сортируем рёбра по весу
     vertices = set(v for edge in edges for v in edge[:2])  # Все уникальные вершины
@@ -39,10 +39,9 @@ def not_kraskal(edges):
     
     # Проверяем, образовалось ли одно связное дерево
     if len(mst) != len(vertices) - 1:
-        return "Минимальное остовное дерево не построить: граф несвязный"
+        return print("Минимальное остовное дерево не построить: граф несвязный")
     
-    return mst
+    res = mst
 
-# res = not_kraskal(mass)
-# ans = not_graph(res)
-# print("Результат нахождения минимального остовного дерева алгоритмом Краскала:", ans)
+    return print(not_graph(res))
+
