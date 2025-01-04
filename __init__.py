@@ -1,5 +1,6 @@
 #Исполнительный файл
 
-from .kraskal import *
-from .prim import *
-from .graph import *
+from kraskal import not_kraskal
+from prim import not_prim
+from graph import not_graph
+

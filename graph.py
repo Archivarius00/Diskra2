@@ -3,15 +3,10 @@
 
 
 
-# Исходные данные /////////////// НЕ ЗАБУДЬТЕ ИХ УБРАТЬ
-mass = [
-    ['A', 'B', 13],
-    ['C', 'B', 5],
-    ['A', 'C', 10]
-]
+
 
 # Функция для создания текстового представления графа
-def draw_graph(mass):
+def not_graph(mass):
     vertices = set()
     edges = []
 
@@ -33,7 +28,6 @@ def draw_graph(mass):
         print(f"{u} -- {v} (дистанция: {weight})")
 
 
-draw_graph(mass)
 
 
 
