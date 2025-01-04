@@ -1,4 +1,4 @@
-from graph import not_graph
+from graph import visualization_graph
 import heapq  # Куча для быстрого поиска минимальных рёбер
 
 
@@ -40,7 +40,7 @@ def algoritm_prima(edges):
     
     result = mst_edges
 
-    return print(not_graph(result))
+    return print(visualization_graph(result))
 
 
 

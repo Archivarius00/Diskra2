@@ -1,4 +1,4 @@
-from graph import not_graph
+from graph import visualization_graph
 
 
 def algoritm_kraskala(edges):
@@ -43,5 +43,5 @@ def algoritm_kraskala(edges):
     
     res = mst
 
-    return print(not_graph(res))
+    return print(visualization_graph(res))
 

@@ -2,7 +2,7 @@
 
 from kraskal import algoritm_kraskala
 from prim import algoritm_prima
-# from graph import not_graph
+# from graph import visualization_graph
 
 
 
@@ -51,5 +51,5 @@ mass = [
     ['Y', 'Z', 9]
 ]
 
-algoritm_prima(mass)
-# algoritm_kraskala(mass)
+# algoritm_prima(mass)
+algoritm_kraskala(mass)
