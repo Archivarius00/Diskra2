@@ -43,5 +43,5 @@ def algoritm_kraskala(edges):
     
     res = mst
 
-    return print(visualization_graph(res))
+    return visualization_graph(res)
 
