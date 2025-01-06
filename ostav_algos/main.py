@@ -50,8 +50,13 @@ mass = [
     
 ]
 
-# algoritm_kraskala(mass)
-algoritm_prima(mass)
+algoritm_kraskala(mass)
+# algoritm_prima(mass)
+
+
+
+#  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ФУНКЦИИ ИЗМЕРЕНИЯ ВРЕМЕНИ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
  
 # def measure_kraskal(graph):
 #     setup_code = "from __main__ import algoritm_kraskala, graph"
